@@ -4,13 +4,13 @@ import heroImage from "@/assets/hero.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Connect Group — Redefining Social Connections" },
+      { title: "Get Hello — Redefining Social Connections" },
       {
         name: "description",
         content:
-          "Connect Group is a leading social and entertainment platform company, building apps that foster meaningful connections across diverse communities worldwide.",
+          "Get Hello is a leading social and entertainment platform company, building apps that foster meaningful connections across diverse communities worldwide.",
       },
-      { property: "og:title", content: "Connect Group — Redefining Social Connections" },
+      { property: "og:title", content: "Get Hello — Redefining Social Connections" },
       {
         property: "og:description",
         content:
@@ -116,7 +116,7 @@ function Index() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/80" />
         <div className="relative mx-auto flex max-w-7xl flex-col justify-center px-6 py-32 md:py-48 lg:py-56">
           <p className="mb-6 text-sm font-medium uppercase tracking-[0.25em] text-primary">
-            Connect Group
+            Get Hello
           </p>
           <h1 className="max-w-4xl text-4xl font-semibold leading-[1.1] tracking-tight md:text-6xl lg:text-7xl">
             To discover friends you haven&apos;t met yet.
@@ -295,7 +295,7 @@ function Index() {
             </div>
           </div>
           <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-8 text-xs text-white/50 md:flex-row md:items-center">
-            <div>© {new Date().getFullYear()} Connect Group. All rights reserved.</div>
+            <div>© {new Date().getFullYear()} Get Hello. All rights reserved.</div>
             <div className="flex gap-6">
               <a href="#" className="hover:text-primary">Privacy</a>
               <a href="#" className="hover:text-primary">Terms</a>
