@@ -24,15 +24,6 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const navLinks = [
-  { label: "Who We Are", href: "#about" },
-  { label: "Our Brands", href: "#brands" },
-  { label: "Careers", href: "#careers" },
-  { label: "Trust & Safety", href: "#trust" },
-  { label: "Contact", href: "#contact" },
-  { label: "Investor Relations", href: "#investors" },
-];
-
 const stats = [
   { value: "350M+", label: "Messages sent daily" },
   { value: "1.3B+", label: "Registered users" },
