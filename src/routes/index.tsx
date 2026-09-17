@@ -33,14 +33,6 @@ const stats = [
   { value: "1,300+", label: "Employees worldwide" },
 ];
 
-const milestones = [
-  { year: "2011", text: "Starting with a team of 4, we launched our first location-based social app." },
-  { year: "2012", text: "Completed Series B at a US$100M valuation. Our flagship app surpassed 10M users in its first year." },
-  { year: "2014", text: "Listed on NASDAQ, becoming one of the first global mobile social platforms to IPO." },
-  { year: "2018", text: "Acquired Crossed, expanding into proximity-based dating." },
-  { year: "2021", text: "Crossed 1 billion registered users across the group's portfolio of apps." },
-  { year: "2024", text: "Acquired BrewMatch and launched Pebble, becoming a global leader in social discovery." },
-];
 
 function Index() {
   return (
@@ -152,31 +144,6 @@ function Index() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* MILESTONES */}
-      <section className="bg-background py-24 md:py-32">
-        <div className="mx-auto max-w-7xl px-6">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary">
-            Milestones
-          </p>
-          <h2 className="mt-4 max-w-2xl text-3xl font-semibold tracking-tight md:text-5xl">
-            More than a decade of building meaningful connections.
-          </h2>
-
-          <ol className="mt-16 grid gap-x-12 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
-            {milestones.map((m) => (
-              <li key={m.year} className="border-t border-border pt-6">
-                <div className="text-4xl font-semibold tracking-tight text-primary">
-                  {m.year}
-                </div>
-                <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-                  {m.text}
-                </p>
-              </li>
-            ))}
-          </ol>
         </div>
       </section>
 

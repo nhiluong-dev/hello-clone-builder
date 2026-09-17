@@ -40,14 +40,6 @@ const values = [
   },
 ];
 
-const leaders = [
-  { name: "Lin Wei", role: "Co-founder & CEO", initials: "LW" },
-  { name: "Aiko Tanaka", role: "President & COO", initials: "AT" },
-  { name: "Marcus Reyes", role: "Chief Financial Officer", initials: "MR" },
-  { name: "Priya Shah", role: "Chief Technology Officer", initials: "PS" },
-  { name: "Daniel Olsen", role: "Chief Product Officer", initials: "DO" },
-  { name: "Sofia Almeida", role: "Chief People Officer", initials: "SA" },
-];
 
 function WhoWeArePage() {
   return (
@@ -107,25 +99,7 @@ function WhoWeArePage() {
 
       <section className="bg-background py-24 md:py-32">
         <div className="mx-auto max-w-7xl px-6">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary">
-            Leadership
-          </p>
-          <h2 className="mt-4 max-w-2xl text-3xl font-semibold tracking-tight md:text-4xl">
-            Meet the team building Get Hello.
-          </h2>
-          <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {leaders.map((l) => (
-              <div key={l.name} className="rounded-sm border border-border p-6">
-                <div className="grid h-16 w-16 place-items-center rounded-sm bg-primary text-lg font-black text-primary-foreground">
-                  {l.initials}
-                </div>
-                <h3 className="mt-5 text-lg font-semibold">{l.name}</h3>
-                <p className="text-sm text-muted-foreground">{l.role}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-16 flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-4">
             <Link
               to="/brands"
               className="inline-flex h-12 items-center justify-center rounded-sm bg-primary px-7 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
